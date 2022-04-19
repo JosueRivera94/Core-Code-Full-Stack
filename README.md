@@ -3,8 +3,8 @@
 ## Developers up skill Full Stack 🚀🖥️⭐
 
 ---
-* Week 1 : [React]()
+* Week 1 : [React](https://github.com/JosueRivera94/Core-Code-Full-Stack/tree/main/content/week%201)
 ---
 ---
-* Week 2 : [React]()
+* Week 2 : [React](https://github.com/JosueRivera94/Core-Code-Full-Stack/tree/main/content/week%202)
 ---
