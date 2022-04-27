@@ -96,3 +96,37 @@ class WishlistForm extends React.Component {
 };
 ```
 
+### 6.React Manage Events
+```javascript
+import React from "react";
+
+export class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { counter: 0 };
+  }
+  render() {
+    return (
+      <div>
+        <h1 id="counter">{this.state.counter}</h1>
+
+        <button
+          id="decrement"
+          onClick={() => this.setState({ counter: this.state.counter - 1 })}
+          type="button"
+        >
+          Decrement
+        </button>
+
+        <button
+          id="increment"
+          onClick={() => this.setState({ counter: this.state.counter + 1 })}
+          type="button"
+        >
+          Increment
+        </button>
+      </div>
+    );
+  }
+}
+```
